@@ -1,0 +1,18 @@
+Vab =! Vba
+V: vocabulary frequency
+Local: frequency of each word divided by the frequency of the number of words in the text
+Global: log frequency of words obtained from a large corpus
+new word: ignore
+Vab: subtract
+
+600 texts:
+choosen random 2*500 pair, create vector and train
+
+six-fold cross-validation
+run 6 times
+divided to 6 equal subsamples
+1 for test
+5 for train: 2*500, each set get random 100 pair
+
+
+
